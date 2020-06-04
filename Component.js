@@ -45,7 +45,7 @@ sap.ui.define([
 			that._oShellContainer = jQuery.sap.getObject("sap.ushell.Container");
 			if (!that._oShellContainer) {
 				oDeferred.reject(
-					"Illegal state: shell container not available; this component must be executed in a unified shell runtime context.");
+					"1Illegal state: shell container not available; this component must be executed in a unified shell runtime context.");
 			} else {
 				oRenderer = that._oShellContainer.getRenderer();
 				if (oRenderer) {
