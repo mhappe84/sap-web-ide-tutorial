@@ -1,0 +1,9 @@
+{
+	"applications": {},
+	"bootstrapPlugins": {
+		"MyFlpPlugin": {
+			"component": "f4w.flp.plugin",
+			"url": "../../../../../"
+		}
+	}
+}

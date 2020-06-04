@@ -1,0 +1,39 @@
+{
+  "welcomeFile": "index.html",
+  "routes": [
+    {
+      "path": "/resources/f4w/flp/plugin",
+      "target": {
+        "type": "application",
+        "name": "MyFlpPlugin"
+      }
+    },
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/sap/opu/odata",
+      "target": {
+        "type": "destination",
+        "name": "CRAS_S4D_100_HTTPS",
+        "entryPath": "/sap/opu/odata"
+      },
+      "description": "Cras development mandant 100"
+    }
+  ]
+}
